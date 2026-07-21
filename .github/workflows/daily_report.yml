@@ -2,7 +2,6 @@ name: Daily Mutual Fund Report
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: '30 14 * * *'
 
