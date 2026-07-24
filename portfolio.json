@@ -1,8 +1,20 @@
-{
-    "scheme_code": "148990",
-    "fund_name": "ICICI Prudential Flexicap Fund - Direct Plan - Growth",
-    "units": 524.864,
-    "invested": 10500,
-    "sip_amount": 750,
-    "email": "chauhankannishk2020@gmail.com"
-}
+[
+    {
+        "scheme_code": "148990",
+        "fund_name": "ICICI Prudential Flexicap Fund - Direct Plan - Growth",
+        "units": 524.864,
+        "invested": 10500
+    },
+    {
+        "scheme_code": "122639",
+        "fund_name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
+        "units": 163.178,
+        "invested": 15000
+    },
+    {
+        "scheme_code": "118955",
+        "fund_name": "HDFC Flexi Cap Fund - Direct Plan - Growth",
+        "units": 10.034,
+        "invested": 22000
+    }
+]
