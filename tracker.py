@@ -4,6 +4,7 @@ from nav_fetcher import get_nav
 from report_generator import create_report
 from email_sender import send_email
 from history_manager import save_history
+from graph_generator import generate_graph
 
 
 def main():
@@ -48,6 +49,9 @@ def main():
     overall_return
 )
 
+    graph_path = generate_graph()
+    
+
     report = create_report(
         funds_data,
         total_invested,
@@ -60,7 +64,8 @@ def main():
 
     send_email(
         "📊 Daily Mutual Fund Report",
-        report
+        report,
+        graph_path
     )
 
 
